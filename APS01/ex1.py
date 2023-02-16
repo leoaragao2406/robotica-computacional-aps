@@ -27,7 +27,7 @@ if __name__ == "__main__":
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # Faz o processamento
-    saida = equaliza(img)
+    saida = equaliza(gray)
     cv2.imwrite("saida_ex1.png", saida)
 
 
